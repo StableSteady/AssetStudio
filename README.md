@@ -1,5 +1,8 @@
 # AssetStudio
-[![Build status](https://ci.appveyor.com/api/projects/status/rnu7l90422pdewx4?svg=true)](https://ci.appveyor.com/project/Perfare/assetstudio/branch/master/artifacts)
+**This is a custom fork for creating a CLI to extract models and animations**
+
+**Usage:**
+**Provide the path to the unity3D file as a command line argument. The texture and .fbx file will be extracted to the same folder.**
 
 **None of the repo, the tool, nor the repo owner is affiliated with, or sponsored or authorized by, Unity Technologies or its affiliates.**
 
