@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AssetStudio.PInvoke\AssetStudio.PInvoke.csproj" />
+    <ProjectReference Include="..\AssetStudioFBXNative\AssetStudioFBXNative.vcxproj" />
+    <ProjectReference Include="..\AssetStudioFBXWrapper\AssetStudioFBXWrapper.csproj" />
+    <ProjectReference Include="..\AssetStudioUtility\AssetStudioUtility.csproj" />
+    <ProjectReference Include="..\AssetStudio\AssetStudio.csproj" />
+    <ProjectReference Include="..\Texture2DDecoderNative\Texture2DDecoderNative.vcxproj" />
+    <ProjectReference Include="..\Texture2DDecoderWrapper\Texture2DDecoderWrapper.csproj" />
+  </ItemGroup>
+
+</Project>

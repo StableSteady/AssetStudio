@@ -23,4 +23,9 @@ namespace AssetStudio
     {
         public void Log(LoggerEvent loggerEvent, string message) { }
     }
+
+    public class CLILogger : ILogger
+    {
+        public void Log(LoggerEvent loggerEvent, string message) { Console.WriteLine(message); }
+    }
 }
